@@ -3,6 +3,8 @@
 name: Ubuntu (tmate)
 
 on:
+  repository_dispatch:
+    types: [ubuntu]
   workflow_dispatch:
 
 jobs:
